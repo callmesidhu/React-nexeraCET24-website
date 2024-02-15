@@ -4,8 +4,7 @@ import "./Header.css";
 function NavBar() {
   return (
     <div>
-        
-
+    
 
     </div>
   )

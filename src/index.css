@@ -1,0 +1,10 @@
+body{
+        margin: 0%;
+        background-image: url(/src/Images/fullBG.png);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-color: black;
+        background-position-x: center;
+        color: white;
+        
+}
