@@ -3,6 +3,3 @@
 @tailwind utilities;
 
 
-.video-control{
-        pointer-events: none;
-}

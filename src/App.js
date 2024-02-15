@@ -8,9 +8,6 @@ import P1Content from './Components/P1Content';
 function App() {
   return (
   <div>
-    <NavBar/>
-    <P1Content/>
-    <Footer/>
     </div>
   );
 }
