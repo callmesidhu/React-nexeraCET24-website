@@ -2,5 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
+.intro-content{
+        display:flex;
+        justify-content: center;
+        padding-top: 200px;
+}
+#intro-div{
+        
+        
+}
+.image-div{
+        padding-top: 15%;
+        padding-left: 15%;
+}
+h1{
+        font-size: 60px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

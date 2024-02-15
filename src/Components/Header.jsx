@@ -1,13 +1,50 @@
 import React from 'react'
 import "./Header.css";
+import text from '../Images/text.png';
+import dictationarySet from '../Images/dictationarySet.png';
 
-function NavBar() {
+function Header() {
   return (
     <div>
-    
+      <div className='intro-content pt-12'>
+        
+<a href="#" id='intro-div' class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-white dark:border-white dark:hover:bg-white">
+<h1 class="mb-2 tracking-tight text-gray-900 dark:text-gray-900">Nexera</h1>
+<div className='intro-button-div content-start'>
+<button class="bg-blue-100 hover:bg-blue-200 text-gray-900 font-bold py-2 px-4 m-2 rounded-full">
+  Overview
+</button>
+<button class="bg-blue-100 hover:bg-blue-200 text-gray-900 font-bold py-2 px-4 m-2 rounded-full">
+  Events
+</button>
+<button class="bg-blue-100 hover:bg-blue-200 text-gray-900 font-bold py-2 px-4 m-2 rounded-full">
+  Pre-Events
+</button>
+<button class="bg-blue-100 hover:bg-blue-200 text-gray-900 font-bold py-2 px-4 m-2 rounded-full">
+  T-Shirt
+</button>
+<button class="bg-blue-100 hover:bg-blue-200 text-gray-900 font-bold py-2 px-4 m-2 rounded-full">
+  Contact
+</button>
 
+</div>
+<hr></hr>
+<img src={dictationarySet}></img>
+<p class="font-normal text-gray-900 dark:text-gray-900">1.Department fest of Industrial Engineering branch of College of Engineering Trivandrum. It is an assemblage of industrial engineering and management practitioners spanning Kerala, with future aspirations of nationwide expansion. Facilitating workshops and discussion sessions aimed at broadening horizons, with participation from eminent figures in the industrial realm.<br/><br/>2.Beginning of the next era of industrial engineering branch.</p>
+
+</a>
+
+      </div>
+      <div className='space'>
+
+      </div>
+      <div className='image-div'>
+        <br/>
+        <br/>
+      <img src={text}></img>
+      </div>
     </div>
   )
 }
 
-export default NavBar
+export default Header
