@@ -8,9 +8,9 @@ function Header() {
     <div>
       <div className='intro-content pt-12'>
         
-<a href="#" id='intro-div' class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-white dark:border-white dark:hover:bg-white">
-<h1 class="mb-2 tracking-tight text-gray-900 dark:text-gray-900">Nexera</h1>
-<div className='intro-button-div content-start'>
+<div id='intro-div' class="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-white dark:border-white dark:hover:bg-white">
+<h1 class="mb-2 tracking-tight text-gray-900 dark:text-gray-900 ">Nexera</h1>
+<div className='intro-button-div content-centre'>
 <button class="bg-blue-100 hover:bg-blue-200 text-gray-900 font-bold py-2 px-4 m-2 rounded-full">
   Overview
 </button>
@@ -29,10 +29,10 @@ function Header() {
 
 </div>
 <hr></hr>
-<img src={dictationarySet}></img>
-<p class="font-normal text-gray-900 dark:text-gray-900">1.Department fest of Industrial Engineering branch of College of Engineering Trivandrum. It is an assemblage of industrial engineering and management practitioners spanning Kerala, with future aspirations of nationwide expansion. Facilitating workshops and discussion sessions aimed at broadening horizons, with participation from eminent figures in the industrial realm.<br/><br/>2.Beginning of the next era of industrial engineering branch.</p>
+<img class='pl-8' src={dictationarySet}></img>
+<p class="pl-12 font-normal text-gray-900 dark:text-gray-900">1.Department fest of Industrial Engineering branch of College of Engineering Trivandrum. It is an assemblage of industrial engineering and management practitioners spanning Kerala, with future aspirations of nationwide expansion. Facilitating workshops and discussion sessions aimed at broadening horizons, with participation from eminent figures in the industrial realm.<br/><br/>2.Beginning of the next era of industrial engineering branch.</p>
 
-</a>
+</div>
 
       </div>
       <div className='space'>
