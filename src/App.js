@@ -10,8 +10,6 @@ function App() {
   <div>
     <NavBar/>
     <P1Content/>
-    <CardSection1/>
-    <CardSection2/>
     <Footer/>
     </div>
   );
