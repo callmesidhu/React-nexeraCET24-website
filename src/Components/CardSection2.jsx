@@ -5,7 +5,7 @@ import eventCard from '../Cards/eventCard.jpeg'
 function CardSection2() {
   return (
     <div>
-      <h1 class='card-title'>Workshops</h1>
+      <h1 class='card-title'></h1>
       
     </div>
   )

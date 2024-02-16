@@ -6,7 +6,14 @@
         width:388px;
         height: 388px;
         border-radius: 20px;
-        margin:12px
+        margin:12px;
+        transition:300ms ease-in-out; 
+}
+.card-section:hover{
+        width:401px;
+        height: auto;
+        border-radius: 20px;
+        margin:5px;
 }
 .card-image{
         border-radius: 20px;
