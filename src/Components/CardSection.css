@@ -9,7 +9,7 @@
         margin:12px;
         transition:300ms ease-in-out; 
         scroll-behavior: smooth;
-        animation: scroll 300s linear infinite;
+        animation: scroll 0s linear infinite;
 }
 .card-section:hover{
         width:400px;
@@ -51,3 +51,4 @@
         100% {
           transform: translateX(-1500%);
         } }
+

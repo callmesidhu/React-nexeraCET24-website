@@ -1,68 +1,66 @@
-import React from 'react'
-import "./CardSection.css";
-import eventCard from '../Cards/eventCard.jpeg'
-import { MdChevronLeft,MdChevronRight } from "react-icons/md";
-
-
-
-
+import React from 'react';
+import './CardSection.css';
+import eventCard from '../Cards/eventCard.jpeg';
+import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 
 function CardSection1() {
-
-  
-
   return (
-
     <div>
-      <div className='flex w-full'>
-      <h1 class='card-title float-left w-100%'>Pre Events</h1>
-      <div class='float-right flex pt-2 px-10'>
-      <MdChevronLeft id='slider1 float-right' className='cursor-grab' size={50}/>
-      <MdChevronRight id='slider2' className='cursor-grab' size={50}/>
+      <div className="flex w-full">
+        <h1 className="card-title float-left w-full">Pre Events</h1>
+        <div className="float-right flex pt-2 lg:mx-48 md:mx-24 sm:mx-24 lg:px-24" >
+          <MdChevronLeft id="slider1" className="cursor-pointer" size={50} />
+          <MdChevronRight id="slider2" className="cursor-pointer" size={50} />
+        </div>
       </div>
+      <div className="card-scroll-container">
+        <div className="card-main-row">
+          <div className="card-section">
+            <div className="card-content">
+              <a href="#">
+                <img className="card-image" src={eventCard} alt="" />
+              </a>
+            </div>
+          </div>
+          <div className="card-section">
+            <div className="card-content">
+              <a href="#">
+                <img className="card-image" src={eventCard} alt="" />
+              </a>
+            </div>
+          </div>
+          <div className="card-section">
+            <div className="card-content">
+              <a href="#">
+                <img className="card-image" src={eventCard} alt="" />
+              </a>
+            </div>
+          </div>
+          <div className="card-section">
+            <div className="card-content">
+              <a href="#">
+                <img className="card-image" src={eventCard} alt="" />
+              </a>
+            </div>
+          </div>
+          <div className="card-section">
+            <div className="card-content">
+              <a href="#">
+                <img className="card-image" src={eventCard} alt="" />
+              </a>
+            </div>
+          </div>
+          <div className="card-section">
+            <div className="card-content">
+              <a href="#">
+                <img className="card-image" src={eventCard} alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-    <div className='card-main-row'>
-      
-      <div className='card-section '>
-      <a href="#">
-        <img class="card-image" src={eventCard} alt="" />
-      </a>
-      </div>
-
-      <div className='card-section '>
-      <a href="#">
-        <img class="card-image" src={eventCard} alt="" />
-      </a>
-      </div>
-
-      <div className='card-section'>
-      <a href="#">
-        <img class="card-image" src={eventCard} alt="" />
-      </a>
-      </div>
-
-      <div className='card-section'>
-      <a href="#">
-        <img class="card-image" src={eventCard} alt="" />
-      </a>
-      </div>
-
-      <div className='card-section'>
-      <a href="#">
-        <img class="card-image" src={eventCard} alt="" />
-      </a>
-      </div>
-
-      <div className='card-section'>
-      <a href="#">
-        <img class="card-image" src={eventCard} alt="" />
-      </a>
-      </div>
-      
     </div>
-    </div>
-  )
+  );
 }
 
-export default CardSection1
-
+export default CardSection1;
