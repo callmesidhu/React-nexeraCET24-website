@@ -1,9 +1,0 @@
-<div className='content-list m-24 cursor-grabbing'>
-    <div class="flex flex-wrap">
-  <div class="w-1/5 relative">
-    <Thumbnail src={E1} class="w-full h-auto" id="e1" onClick={() => handleThumbnailClick({CE})}/>
-  </div>
-  <div class="w-1/5 relative">
-    <img src={E2} class="w-full h-auto" id="e2" ></img>
-  </div>
-  

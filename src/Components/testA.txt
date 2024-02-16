@@ -43,14 +43,14 @@ const FullScreenImage = ({ src, onClick, onMouseEnter, onMouseLeave }) => {
       onClick={onClick}
       onMouseEnter={onMouseEnter}
       onMouseLeave={handleMouseLeave}
-      style={{ transition: 'opacity 2s ease' }}
+      style={{ transition: 'opacity 0.5s ease' }}
     >
       <img
         src={src}
         alt="Full Screen Image"
         className="max-w-full max-h-full"
         onMouseLeave={onMouseLeave}
-        style={{ transition: 'opacity 2s ease' }}
+        style={{ transition: 'opacity 0.5s ease' }}
       />
     </div>
   );

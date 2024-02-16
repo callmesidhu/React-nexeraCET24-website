@@ -6,3 +6,16 @@
         height: auto;
         
 }
+.thumbnail {
+        /* Your existing thumbnail styles */
+      }
+      
+      /* Add the fade animation for FullScreenImage */
+      .fixed {
+        opacity: 0; /* Initially hide the FullScreenImage */
+      }
+      
+      .fixed:hover {
+        opacity: 1; /* Show the FullScreenImage on hover */
+      }
+      
