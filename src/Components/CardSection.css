@@ -2,14 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-.hide-scroll-bar {
-        -ms-overflow-style: none;
-        scrollbar-width: none;
-      }
-      .hide-scroll-bar::-webkit-scrollbar {
-        display: none;
-      }
-      
-.card-dimension{
-        
+.card-section{
+        width:388px;
+        height: 388px;
+        border-radius: 20px;
+        margin:12px
+}
+.card-image{
+        border-radius: 20px;
+}
+.card-main-row{
+        margin-right: 15%;
+        margin-left: 15%;
+        display:grid;
+        grid-auto-flow: column;
+        grid-auto-columns: auto;
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+
+}
+.card-title{
+        font-size: 30px;
+        margin-left: 15%;
+        margin-bottom: 30px;
 }

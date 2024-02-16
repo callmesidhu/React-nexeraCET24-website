@@ -6,6 +6,8 @@ body{
         background-color: black;
         background-position-x: center;
         color: white;
+        cursor: url('/public/mpc.png'), auto;
+
         
         
 }

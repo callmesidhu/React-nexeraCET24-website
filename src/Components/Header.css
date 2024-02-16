@@ -5,6 +5,7 @@
 .intro-content{
         display:flex;
         justify-content: center;
+
 }
 #intro-div{
         width: 45%;
@@ -17,7 +18,7 @@
         padding-top: 15%;
         padding-left: 15%;
 }
-h1{
+.intro-title{
         font-size: 60px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: lighter;

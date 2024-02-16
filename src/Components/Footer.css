@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-h1{
+.footer-title-main{
         font-size: 45px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: bold;
 }
-h2{
+.footer-title-sub{
         font-size:25px;
 }
 .footer-right{
@@ -17,4 +17,7 @@ h2{
 .footer-left{
         float: left;
         padding-left:15% ;
+}
+.main-footer{
+        margin-top: 20%;
 }
