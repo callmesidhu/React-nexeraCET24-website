@@ -1,4 +1,3 @@
-import React from 'react';
 import './Footer.css';
 import linkedinIcon from '../Images/linkedinIcon.png';
 import instaIcon from '../Images/instaIcon.png';
@@ -18,7 +17,7 @@ function Footer() {
 
       </div>x
       <div className='footer-right'>
-        <h1 class='footer-title-main'>
+        <h1 class='footer-title-main' id='ContactUs'>
           Follow us now
         </h1><br></br>
         <button class='px-2 float-right' onClick={callInstagram} ><img src={instaIcon}></img></button>
