@@ -8,9 +8,11 @@
         border-radius: 20px;
         margin:12px;
         transition:300ms ease-in-out; 
+        scroll-behavior: smooth;
+        animation: scroll 300s linear infinite;
 }
 .card-section:hover{
-        width:401px;
+        width:400px;
         height: auto;
         border-radius: 20px;
         margin:5px;
@@ -19,17 +21,33 @@
         border-radius: 20px;
 }
 .card-main-row{
-        margin-right: 15%;
-        margin-left: 15%;
+        margin-right: 13%;
+        margin-left: 13%;
         display:grid;
         grid-auto-flow: column;
         grid-auto-columns: auto;
         overflow-x: auto;
         overscroll-behavior-inline: contain;
+        
+
 
 }
+.card-main-row::-webkit-scrollbar{
+        display:none;
+}
 .card-title{
-        font-size: 30px;
+        font-size: 40px;
+        font-weight: 100;
         margin-left: 15%;
         margin-bottom: 30px;
 }
+
+
+
+@keyframes scroll {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-1500%);
+        } }
