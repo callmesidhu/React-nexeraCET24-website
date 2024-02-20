@@ -2,6 +2,9 @@ import React from 'react'
 import "./Header.css";
 import text from '../Images/text.png';
 import dictationarySet from '../Images/dictationarySet.png';
+import { Link } from 'react-scroll';
+import { BrowserRouter } from 'react-router-dom';
+
 
 
 function Header() {
@@ -12,21 +15,71 @@ function Header() {
 <div id='intro-div' class="lg:w-6/12 md:mx-24 sm:mx-12 mx-12 block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-white dark:border-white dark:hover:bg-white">
 <h1 class="intro-title mb-2 tracking-tight text-gray-900 dark:text-gray-900 ">Nexera</h1>
 <div className='intro-button-div content-centre'>
-<button class="bg-blue-100 hover:bg-blue-200 text-gray-900 font-bold py-2 px-4 m-2 rounded-full">
-  Overview
-</button>
+  <BrowserRouter>
+  <Link 
+      to="overview" 
+      smooth={true} 
+      offset={50} 
+      duration={2000} 
+      
+    >
 <button class="bg-blue-100 hover:bg-blue-200 text-gray-900 font-bold py-2 px-4 m-2 rounded-full" >
-  Events
+
+      Overview
+    
+
 </button>
+</Link>
+<Link 
+    
+      to="events" 
+      smooth={true} 
+      offset={50} 
+      duration={2000} 
+      
+    >
 <button class="bg-blue-100 hover:bg-blue-200 text-gray-900 font-bold py-2 px-4 m-2 rounded-full" >
-  Pre-Events
+
+      Events
+    
+
 </button>
+</Link>
+<Link 
+    
+      to="events" 
+      smooth={true} 
+      offset={50} 
+      duration={2000} 
+      
+    >
+<button class="bg-blue-100 hover:bg-blue-200 text-gray-900 font-bold py-2 px-4 m-2 rounded-full" >
+
+
+      Pre Events
+    
+
+</button>
+</Link>
 <button class="bg-blue-100 hover:bg-blue-200 text-gray-900 font-bold py-2 px-4 m-2 rounded-full">
   T-Shirt
 </button>
+<Link 
+      to="contact" 
+      smooth={true} 
+      offset={50} 
+      duration={2000} 
+      
+    >
 <button class="bg-blue-100 hover:bg-blue-200 text-gray-900 font-bold py-2 px-4 m-2 rounded-full">
-<a href="#ContacUs">Contact</a>
+
+
+      Contact
+   
+
 </button>
+</Link>
+</BrowserRouter>
 
 </div>
 <hr></hr>

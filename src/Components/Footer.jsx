@@ -4,9 +4,10 @@ import instaIcon from '../Images/instaIcon.png';
 import './hyperlinks.js'
 import {callInstagram,callLinkedIn} from './hyperlinks.js';
 
+
 function Footer() {
   return (
-    <div className='main-footer'>
+    <div className='main-footer md:mb-12 lg:mb-0' id="contact">
       <div className='footer-left'>
         <h1 class="footer-title-main">
           Wish to sponsor us?

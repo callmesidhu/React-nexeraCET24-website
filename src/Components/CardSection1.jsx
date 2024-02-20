@@ -6,7 +6,7 @@ import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 function CardSection1() {
   return (
     <div>
-      <div className="flex w-full">
+      <div className="flex w-full" id="events">
         <h1 className="card-title float-left w-full">Pre Events</h1>
         <div className="float-right flex pt-2 lg:mx-48 md:mx-24 sm:mx-24 lg:px-24" >
           <MdChevronLeft id="slider1" className="cursor-pointer" size={50} />
