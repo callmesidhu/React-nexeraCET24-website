@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/react-nexera-cet-website/static/css/main.7f904df3.css",
-    "main.js": "/react-nexera-cet-website/static/js/main.fab20bd4.js",
-    "static/media/fullBG.png": "/react-nexera-cet-website/static/media/fullBG.e88fa7dc789153c652fe.png",
-    "static/media/WeaponExpo.png": "/react-nexera-cet-website/static/media/WeaponExpo.5e69272f7b0815dc9941.png",
-    "static/media/FleaMarket.png": "/react-nexera-cet-website/static/media/FleaMarket.c7547c8dc0f11e6c2c92.png",
-    "static/media/CulturalEvents.png": "/react-nexera-cet-website/static/media/CulturalEvents.d5f57a85e2738a456cdc.png",
-    "static/media/Gaming.png": "/react-nexera-cet-website/static/media/Gaming.063954e2b95bbb12cbf9.png",
-    "static/media/E1.png": "/react-nexera-cet-website/static/media/E1.a7bd6ebb8520f0cb8bd6.png",
-    "static/media/E3.png": "/react-nexera-cet-website/static/media/E3.50e9ce4df62097023695.png",
-    "static/media/CarShow.png": "/react-nexera-cet-website/static/media/CarShow.5d517e1692212280c6b2.png",
-    "static/media/E4.png": "/react-nexera-cet-website/static/media/E4.596cf52c6da7764d65bc.png",
-    "static/media/E5.png": "/react-nexera-cet-website/static/media/E5.5e602c432a6a0bc90c8f.png",
-    "static/media/eventCard.jpeg": "/react-nexera-cet-website/static/media/eventCard.fd8b275f361e237df88e.jpeg",
-    "static/media/mpc.png": "/react-nexera-cet-website/static/media/mpc.7e147f4ddf4b33a1921a.png",
-    "static/media/E2.png": "/react-nexera-cet-website/static/media/E2.e74398b1e181193b909f.png",
-    "static/media/text.png": "/react-nexera-cet-website/static/media/text.90d49b5566cf23eed09f.png",
-    "index.html": "/react-nexera-cet-website/index.html",
-    "main.7f904df3.css.map": "/react-nexera-cet-website/static/css/main.7f904df3.css.map",
-    "main.fab20bd4.js.map": "/react-nexera-cet-website/static/js/main.fab20bd4.js.map"
+    "main.css": "/static/css/main.02766478.css",
+    "main.js": "/static/js/main.15ba3b00.js",
+    "static/media/fullBG.png": "/static/media/fullBG.e88fa7dc789153c652fe.png",
+    "static/media/WeaponExpo.png": "/static/media/WeaponExpo.5e69272f7b0815dc9941.png",
+    "static/media/FleaMarket.png": "/static/media/FleaMarket.c7547c8dc0f11e6c2c92.png",
+    "static/media/CulturalEvents.png": "/static/media/CulturalEvents.d5f57a85e2738a456cdc.png",
+    "static/media/Gaming.png": "/static/media/Gaming.063954e2b95bbb12cbf9.png",
+    "static/media/E1.png": "/static/media/E1.a7bd6ebb8520f0cb8bd6.png",
+    "static/media/E3.png": "/static/media/E3.50e9ce4df62097023695.png",
+    "static/media/CarShow.png": "/static/media/CarShow.5d517e1692212280c6b2.png",
+    "static/media/E4.png": "/static/media/E4.596cf52c6da7764d65bc.png",
+    "static/media/E5.png": "/static/media/E5.5e602c432a6a0bc90c8f.png",
+    "static/media/eventCard.jpeg": "/static/media/eventCard.fd8b275f361e237df88e.jpeg",
+    "static/media/mpc.png": "/static/media/mpc.7e147f4ddf4b33a1921a.png",
+    "static/media/E2.png": "/static/media/E2.e74398b1e181193b909f.png",
+    "static/media/text.png": "/static/media/text.90d49b5566cf23eed09f.png",
+    "index.html": "/index.html",
+    "main.02766478.css.map": "/static/css/main.02766478.css.map",
+    "main.15ba3b00.js.map": "/static/js/main.15ba3b00.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f904df3.css",
-    "static/js/main.fab20bd4.js"
+    "static/css/main.02766478.css",
+    "static/js/main.15ba3b00.js"
   ]
 }
