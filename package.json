@@ -1,6 +1,6 @@
 {
   "name": "react-nexera-cet-website",
-  "homepage": "http://nexeracet.tech/",
+  "homepage": "http://nexeracet.tech",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

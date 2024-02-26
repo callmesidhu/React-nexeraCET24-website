@@ -1,15 +1,3 @@
-import React, { useState } from 'react';
-import './SubContent.css';
-import E1 from '../Images/E1.png'
-import E2 from '../Images/E2.png'
-import E3 from '../Images/E3.png'
-import E4 from '../Images/E4.png'
-import E5 from '../Images/E5.png'
-import CS from '../Images/CarShow.png'
-import CE from '../Images/CulturalEvents.png'
-import FM from '../Images/FleaMarket.png'
-import GL from '../Images/Gaming.png'
-import WE from '../Images/WeaponExpo.png'
 
 const Thumbnail = ({ src, alt, onMouseEnter, onMouseLeave }) => {
   return (

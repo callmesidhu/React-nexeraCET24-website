@@ -67,7 +67,7 @@ const SubContent = () => {
     <div className="flex md:mb-12 sm:mb-12" id='overview'>
       <div className='content-list cursor-grabbing '>
         <div class="flex flex-wrap p-5 md:p-12 lg:p-12 xl:p-24  lg:mx-40 md:mx-0 sm:mx">
-          <div class="w-1/5 relative">
+          <div class="w-1/5 relative ">
             <Thumbnail src={E1} alt="E1" onMouseEnter={() => handleThumbnailMouseEnter(WE)} onMouseLeave={() => setFullScreenImageSrc(null)} />
           </div>
           <div class="w-1/5 relative">

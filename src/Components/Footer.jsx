@@ -16,7 +16,7 @@ function Footer() {
           <h2 class='footer-title-sub'>Get in touch</h2>
         </button>
 
-      </div>x
+      </div>
       <div className='footer-right'>
         <h1 class='footer-title-main' id='ContactUs'>
           Follow us now
