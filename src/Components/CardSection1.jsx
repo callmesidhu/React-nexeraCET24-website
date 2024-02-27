@@ -18,7 +18,7 @@ function CardSection1() {
     <div>
       <div className="flex w-full" id="events">
         <h1 className="card-title float-left w-full">Pre Events</h1>
-        <div className="float-right flex pt-2 lg:mx-48 md:mx-24 sm:mx-12 lg:px-24" >
+        <div className="float-right flex pt-2 lg:mx-48 md:mx-24 sm:mx-5 lg:px-24 xsm:mx-0 xsm:px-0" >
           <button onClick={xScrollRight}>
           <MdChevronLeft id="slider1" className="cursor-pointer" size={50} />
           </button>
@@ -30,42 +30,42 @@ function CardSection1() {
       <div className="card-scroll-container">
         <div className="card-main-row">
           <div className="card-section">
-            <div className="card-content lg:p-0 md:p-0 sm:p-0">
+            <div className="card-content xsm:p-12 sm:p-0 xsm:mx-1">
               <a href="#">
                 <img className="card-image" src={eventCard} alt="" />
               </a>
             </div>
           </div>
           <div className="card-section">
-            <div className="card-content">
+            <div className="card-content xsm:p-12 sm:p-0">
               <a href="#">
                 <img className="card-image" src={eventCard} alt="" />
               </a>
             </div>
           </div>
           <div className="card-section">
-            <div className="card-content">
+            <div className="card-content xsm:p-12 sm:p-0">
               <a href="#">
                 <img className="card-image" src={eventCard} alt="" />
               </a>
             </div>
           </div>
           <div className="card-section">
-            <div className="card-content">
+            <div className="card-content xsm:p-12 sm:p-0">
               <a href="#">
                 <img className="card-image" src={eventCard} alt="" />
               </a>
             </div>
           </div>
           <div className="card-section">
-            <div className="card-content">
+            <div className="card-content xsm:p-12 sm:p-0">
               <a href="#">
                 <img className="card-image" src={eventCard} alt="" />
               </a>
             </div>
           </div>
           <div className="card-section">
-            <div className="card-content">
+            <div className="card-content xsm:p-12 sm:p-0">
               <a href="#">
                 <img className="card-image" src={eventCard} alt="" />
               </a>

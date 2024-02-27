@@ -8,7 +8,7 @@ import {callInstagram,callLinkedIn} from './hyperlinks.js';
 function Footer() {
   return (
     <div className='main-footer md:mb-12 lg:mb-0' id="contact">
-      <div className='footer-left'>
+      <div className='footer-left sm:mb-0 xsm:mb-16'>
         <h1 class="footer-title-main">
           Wish to sponsor us?
         </h1><br></br>
@@ -17,7 +17,7 @@ function Footer() {
         </button>
 
       </div>
-      <div className='footer-right'>
+      <div className='footer-right sm:mb-0 xsm:mb-16 xsm:content-center place-content-center'>
         <h1 class='footer-title-main' id='ContactUs'>
           Follow us now
         </h1><br></br>
