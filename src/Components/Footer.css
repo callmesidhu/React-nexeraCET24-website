@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 .footer-title-main{
-        font-size: 45px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: bold;
 }
@@ -20,5 +19,5 @@
 }
 .main-footer{
         margin-top: 20%;
-        margin-bottom: 35%;
+        
 }
