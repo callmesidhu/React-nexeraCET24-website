@@ -9,7 +9,6 @@
 }
 #intro-div{
         border-radius: 40px;
-        padding-left: 40px;
         margin-top: 10%;
         
 }
@@ -18,7 +17,6 @@
         padding-left: 15%;
 }
 .intro-title{
-        font-size: 55px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: lighter;
 }

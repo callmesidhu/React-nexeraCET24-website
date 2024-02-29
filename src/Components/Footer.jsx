@@ -17,12 +17,12 @@ function Footer() {
         </button>
 
       </div>
-      <div className='footer-right sm:mb-0 xsm:mb-16 xsm:content-center place-content-center'>
+      <div className='footer-right sm:mb-0 xsm:mb-20 xsm:ml-20 xsm:mt-20'>
         <h1 class='footer-title-main' id='ContactUs'>
           Follow us now
         </h1><br></br>
-        <button class='px-2 float-right' onClick={callInstagram} ><img src={instaIcon}></img></button>
-        <button class='px-2 float-right' onClick={callLinkedIn}><img src={linkedinIcon}></img></button>
+        <button class='px-2 float-right xsm:justify-center' onClick={callInstagram} ><img src={instaIcon}></img></button>
+        <button class='px-2 float-right xsm:justify-center' onClick={callLinkedIn}><img src={linkedinIcon}></img></button>
       </div>
     </div>
   )

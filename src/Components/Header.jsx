@@ -13,12 +13,12 @@ import './hyperlinks.js'
 function Header() {
   return (
     <div>
-      <div className='intro-content pt-12 md:mb-12'>
+      <div className='intro-content pt-12 md:mb-24'>
         
-<div id='intro-div' class="lg:w-6/12 md:mx-24 sm:mx-12 mx-12 block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-white dark:border-white dark:hover:bg-white">
-<h1 class="intro-title mb-2 tracking-tight text-gray-900 dark:text-gray-900 ">Nexera</h1>
+<div id='intro-div' class="xsm:p-3 lg:pl-12 lg:w-6/12 md:mx-24 sm:mx-12 mx-4 block p-6  border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-white dark:border-white dark:hover:bg-white">
+<h1 class="intro-title lg:text-5xl text-4xl mb-2 tracking-tight text-gray-900 dark:text-gray-900 ml-4 mt-7">Nexera</h1>
 <div className='intro-button-div content-centre'>
-  <BrowserRouter>
+  <BrowserRouter className='flex'>
   <Link 
       to="overview" 
       smooth={true} 
