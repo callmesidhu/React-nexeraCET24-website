@@ -17,7 +17,7 @@ function Footer() {
         </button>
 
       </div>
-      <div className='footer-right sm:mb-0 xsm:mb-20 xsm:ml-20 xsm:mt-20'>
+      <div className='footer-right sm:mb-0 xsm:mb-20 xsm:ml-20 xsm:mt-20 lg:mb-1'>
         <h1 class='footer-title-main' id='ContactUs'>
           Follow us now
         </h1><br></br>

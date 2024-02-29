@@ -11,6 +11,10 @@ function App() {
     <Header/>
     <SubContent/>
     <CardSection1/>
+    <CardSection1/>
+    <CardSection1/>
+    <CardSection1/>
+    
     <Footer/>
     
   </div>

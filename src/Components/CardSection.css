@@ -3,8 +3,6 @@
 @tailwind utilities;
 
 .card-section{
-        width:388px;
-        height: 388px;
         border-radius: 20px;
         margin:12px;
         transition:300ms ease-in-out; 
@@ -21,8 +19,7 @@
         border-radius: 20px;
 }
 .card-main-row{
-        margin-right: 9%;
-        margin-left: 9%;
+        
         display:grid;
         grid-auto-flow: column;
         grid-auto-columns: auto;
