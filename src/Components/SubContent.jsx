@@ -1,93 +1,27 @@
-import React, { useState } from 'react';
+import React from 'react';
+import CS from '../Images/CarShowStock.png'
+import CE from '../Images/CulturalEventStock.png'
+import FM from '../Images/FleaMarketStock.png'
+import GL from '../Images/GamingStock.png'
+import WE from '../Images/WeaponExpoStock.png'
 import './SubContent.css';
-import E1 from '../Images/E1.png'
-import E2 from '../Images/E2.png'
-import E3 from '../Images/E3.png'
-import E4 from '../Images/E4.png'
-import E5 from '../Images/E5.png'
-import CS from '../Images/CarShow.png'
-import CE from '../Images/CulturalEvents.png'
-import FM from '../Images/FleaMarket.png'
-import GL from '../Images/Gaming.png'
-import WE from '../Images/WeaponExpo.png'
 
-const Thumbnail = ({ src, alt, onMouseEnter, onMouseLeave }) => {
+
+function SubContent() {
   return (
-    <img
-      src={src}
-      alt={alt}
-      className="thumbnail"
-      onMouseEnter={onMouseEnter}
-      onMouseLeave={onMouseLeave}
-    />
-  );
-};
-
-const FullScreenImage = ({ src, onClick, onMouseEnter, onMouseLeave }) => {
-  const [isVisible, setIsVisible] = useState(false);
-  let timeoutId;
-
-  const toggleVisibility = () => {
-    setIsVisible(!isVisible);
-  };
-
-  const handleMouseLeave = () => {
-    timeoutId = setTimeout(() => {
-      setIsVisible(false);
-    }, 1000);
-  };
-
-  return (
-    <div
-      className={`fixed inset-0 flex justify-center items-center bg-black bg-opacity-75 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
-      onClick={onClick}
-      onMouseEnter={onMouseEnter}
-      onMouseLeave={handleMouseLeave}
-      style={{ transition: 'opacity .8s ease' }}
-    >
-      <img
-        src={src}
-        alt="Full Screen Image"
-        className="max-w-full max-h-full"
-        onMouseLeave={onMouseLeave}
-        style={{ transition: 'opacity 2s ease' }}
-      />
-    </div>
-  );
-};
-
-const SubContent = () => {
-  const [fullScreenImageSrc, setFullScreenImageSrc] = useState(null);
-
-  const handleThumbnailMouseEnter = (imageSrc) => {
-    setFullScreenImageSrc(imageSrc);
-  };
-
-  return (
-    <div className="flex md:mb-12 sm:mb-12" id='overview'>
-      <div className='content-list cursor-grabbing '>
-        <div class="flex flex-wrap p-5 md:p-12 lg:p-12 xl:p-24  lg:mx-40 md:mx-0 sm:mx">
-          <div class="w-1/5 relative ">
-            <Thumbnail src={E1} alt="E1" onMouseEnter={() => handleThumbnailMouseEnter(WE)} onMouseLeave={() => setFullScreenImageSrc(null)} />
-          </div>
-          <div class="w-1/5 relative">
-            <Thumbnail src={E2} alt="E2" onMouseEnter={() => handleThumbnailMouseEnter(CS)} onMouseLeave={() => setFullScreenImageSrc(null)} />
-          </div>
-          <div class="w-1/5 relative">
-            <Thumbnail src={E3} alt="E3" onMouseEnter={() => handleThumbnailMouseEnter(FM)} onMouseLeave={() => setFullScreenImageSrc(null)} />
-          </div>
-          <div class="w-1/5 relative">
-            <Thumbnail src={E4} alt="E4" onMouseEnter={() => handleThumbnailMouseEnter(CE)} onMouseLeave={() => setFullScreenImageSrc(null)} />
-          </div>
-          <div class="w-1/5 relative">
-            <Thumbnail src={E5} alt="E5" onMouseEnter={() => handleThumbnailMouseEnter(GL)} onMouseLeave={() => setFullScreenImageSrc(null)} />
-          </div>
+<div className="content-center w-full lg:px-32 px-10" id='overview'>
+      <div className='content-list cursor-grabbing  my-24 lg:my-48' >
+        <div class="gallery content-center">
+          <img src={WE}></img>
+          <img src={CS}></img>
+          <img src={FM}></img>
+          <img src={CE}></img>
+          <img src={GL}></img>
+            </div>
+            </div>
+            </div>
           
-          {fullScreenImageSrc && <FullScreenImage src={fullScreenImageSrc} onClick={() => setFullScreenImageSrc(null)} onMouseEnter={() => setFullScreenImageSrc(fullScreenImageSrc)} onMouseLeave={() => setFullScreenImageSrc(null)} />}
-        </div>
-      </div>
-    </div>
-  );
-};
+  )
+}
 
-export default SubContent;
+export default SubContent

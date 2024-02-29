@@ -6,16 +6,25 @@
         height: auto;
         
 }
-.thumbnail {
-        /* Your existing thumbnail styles */
-      }
-      
-      /* Add the fade animation for FullScreenImage */
-      .fixed {
-        opacity: 0; /* Initially hide the FullScreenImage */
-      }
-      
-      .fixed:hover {
-        opacity: 1; /* Show the FullScreenImage on hover */
-      }
+.gallery{
+  height: 60vmin;
+  display: flex;
+  gap: 5px;
+}
+.gallery img{
+  height: 100%;
+  flex:1;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 9px;
+  transition: all 0.5s;
+  
+} 
+.gallery img:hover{
+  flex: 5;
+}
+#overview{
+  justify-content: center;
+  width: 100%;
+}
       
