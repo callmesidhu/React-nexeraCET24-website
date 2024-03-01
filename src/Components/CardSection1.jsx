@@ -5,11 +5,11 @@ import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 
 
 function xScrollLeft(){
-  var left = document.querySelector(".card-main-row");
+  var left = document.querySelector(".xScroll1");
   left.scrollBy(500,0)
 }
 function xScrollRight(){
-  var right = document.querySelector(".card-main-row");
+  var right = document.querySelector(".xScroll1");
   right.scrollBy(-500,0)
   
 }
@@ -30,7 +30,7 @@ function CardSection1() {
         </div>
       </div>
       <div className="card-scroll-container">
-        <div className="card-main-row lg:mx-52 md:mx-32 sm:mx-20 xsm:mx-12">
+        <div className="card-main-row xScroll1 lg:mx-52 md:mx-32 sm:mx-20 xsm:mx-12">
          
          
          
