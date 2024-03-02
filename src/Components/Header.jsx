@@ -50,7 +50,7 @@ function Header() {
 </Link>
 <Link 
     
-      to="events" 
+      to="Preevents" 
       smooth={true} 
       offset={50} 
       duration={2000} 

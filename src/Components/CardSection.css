@@ -10,10 +10,11 @@
         animation: scroll 0s linear infinite;
 }
 .card-section:hover{
-        width:400px;
+        width:390px;
         height: auto;
         border-radius: 20px;
-        margin:5px;
+        margin:10px;
+        transition-duration: .2s;
 }
 .card-image{
         border-radius: 20px;

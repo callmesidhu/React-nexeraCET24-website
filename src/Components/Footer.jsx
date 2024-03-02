@@ -24,6 +24,7 @@ function Footer() {
         <button class='px-2 float-right xsm:justify-center' onClick={callInstagram} ><img src={instaIcon}></img></button>
         <button class='px-2 float-right xsm:justify-center' onClick={callLinkedIn}><img src={linkedinIcon}></img></button>
       </div>
+      
     </div>
   )
 }

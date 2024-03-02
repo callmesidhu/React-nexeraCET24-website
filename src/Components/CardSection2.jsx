@@ -1,9 +1,11 @@
 import React from 'react'
 import './CardSection.css';
-import Ideathon from '../Cards/Ideathon.jpeg';
-import Bgmi from '../Cards/Bgmi.jpeg';
-import Efootball from '../Cards/Efootball.jpeg'
+import WebDesigning from '../Cards/WebDesigning.jpeg';
 import BrainStorming from '../Cards/BrainStorming.jpeg' 
+import PBI from '../Cards/PBI.jpeg'
+import Orgami from '../Cards/Orgami.jpeg'
+import Dance from '../Cards/Dance.jpeg'
+import Stockmarket from '../Cards/Stockmarket.jpeg'
 
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 
@@ -23,8 +25,8 @@ function CardSection2() {
   return (
     <div>
       <div>
-      <div className="flex w-full" id="events">
-        <h1 className="card-title float-left w-full mt-16">Events</h1>
+      <div className="flex w-full" id='events'>
+        <h1 className="card-title float-left w-full mt-16">Workshops</h1>
         <div className="float-right flex pt-2 lg:mx-48 md:mx-24 sm:mx-5 lg:px-24 xsm:mx-0 xsm:px-0" >
           <button onClick={xScrollRight}>
           <MdChevronLeft id="slider1" className="cursor-pointer" size={50} />
@@ -40,43 +42,64 @@ function CardSection2() {
          
          
          
+          
+        
           <div className="card-section">
             <div className="card-content lg:h-96 lg:w-96 md:h-80 md:w-80 sm:h-72 sm:w-72 xsm:h-64 xsm:w-64">
-              <a href="https://www.townscript.com/v2/e/nexera-24-002324/booking/tickets">
-                <button>
-                <img className="card-image" src={Ideathon} alt="" />
-                </button>
-              </a>
-            </div>
-          </div>
-          <div className="card-section">
-            <div className="card-content lg:h-96 lg:w-96 md:h-80 md:w-80 sm:h-72 sm:w-72 xsm:h-64 xsm:w-64">
-              <a href="https://forms.gle/HZTewmk2nhBL2jFq6">
-                <button>
-                <img className="card-image" src={Bgmi} alt="" />
-                </button>
-              </a>
-            </div>
-          </div>
-          <div className="card-section">
-            <div className="card-content lg:h-96 lg:w-96 md:h-80 md:w-80 sm:h-72 sm:w-72 xsm:h-64 xsm:w-64">
-              <a href="https://forms.gle/dXPp25VocsPM2XAi6">
-                <button>
-                <img className="card-image" src={Efootball} alt="" />
-                </button>
-              </a>
-            </div>
-          </div>
-          <div className="card-section">
-            <div className="card-content lg:h-96 lg:w-96 md:h-80 md:w-80 sm:h-72 sm:w-72 xsm:h-64 xsm:w-64">
-              <a href="https://www.townscript.com/v2/e/nexera-24-002324/booking/tickets">
+              <a href="https://www.townscript.com/v2/e/nexera-24-002324/booking/tickets" target='_blank'>
                 <button>
                 <img className="card-image" src={BrainStorming} alt="" />
                 </button>
               </a>
             </div>
           </div>
-
+          <div className="card-section">
+            <div className="card-content lg:h-96 lg:w-96 md:h-80 md:w-80 sm:h-72 sm:w-72 xsm:h-64 xsm:w-64">
+              <a href="https://www.townscript.com/v2/e/nexera-24-002324/booking/tickets" target='_blank'>
+                <button>
+                <img className="card-image" src={PBI} alt="" />
+                </button>
+              </a>
+            </div>
+          </div>
+          <div className="card-section">
+            <div className="card-content lg:h-96 lg:w-96 md:h-80 md:w-80 sm:h-72 sm:w-72 xsm:h-64 xsm:w-64">
+              <a  href="https://www.townscript.com/v2/e/nexera-24-002324/booking/tickets" target='_blank'>
+                <button>
+                <img className="card-image" src={WebDesigning} alt="" />
+                </button>
+              </a>
+            </div>
+          </div>
+          <div className="card-section">
+            <div className="card-content lg:h-96 lg:w-96 md:h-80 md:w-80 sm:h-72 sm:w-72 xsm:h-64 xsm:w-64">
+              <a  href="https://www.townscript.com/v2/e/nexera-24-002324/booking/tickets" target='_blank'>
+                <button>
+                <img className="card-image" src={Dance} alt="" />
+                </button>
+              </a>
+            </div>
+          </div>
+          <div className="card-section">
+            <div className="card-content lg:h-96 lg:w-96 md:h-80 md:w-80 sm:h-72 sm:w-72 xsm:h-64 xsm:w-64">
+              <a  href="https://www.townscript.com/v2/e/nexera-24-002324/booking/tickets" target='_blank'>
+                <button>
+                <img className="card-image" src={Orgami} alt="" />
+                </button>
+              </a>
+            </div>
+          </div>
+          <div className="card-section">
+            <div className="card-content lg:h-96 lg:w-96 md:h-80 md:w-80 sm:h-72 sm:w-72 xsm:h-64 xsm:w-64">
+              <a  href="https://www.townscript.com/v2/e/nexera-24-002324/booking/tickets" target='_blank'>
+                <button>
+                <img className="card-image" src={Stockmarket} alt="" />
+                </button>
+              </a>
+            </div>
+          </div>
+        
+         
         
           
 
