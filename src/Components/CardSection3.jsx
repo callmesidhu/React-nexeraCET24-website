@@ -44,72 +44,9 @@ function CardSection3() {
                 </a>
               </div>
             </div>
-            <div className="card-section">
-              <div className="card-content lg:h-96 lg:w-96 md:h-80 md:w-80 sm:h-72 sm:w-72 xsm:h-64 xsm:w-64">
-                <a href="#">
-                  <button>
-                  <img className="card-image" src={eventCard} alt="" />
-                  </button>
-                </a>
-              </div>
-            </div>
-            <div className="card-section">
-              <div className="card-content lg:h-96 lg:w-96 md:h-80 md:w-80 sm:h-72 sm:w-72 xsm:h-64 xsm:w-64">
-                <a href="#">
-                  <button>
-                  <img className="card-image" src={eventCard} alt="" />
-                  </button>
-                </a>
-              </div>
-            </div>
-            <div className="card-section">
-              <div className="card-content lg:h-96 lg:w-96 md:h-80 md:w-80 sm:h-72 sm:w-72 xsm:h-64 xsm:w-64">
-                <a href="#">
-                  <button>
-                  <img className="card-image" src={eventCard} alt="" />
-                  </button>
-                </a>
-              </div>
-            </div>
-            <div className="card-section">
-              <div className="card-content lg:h-96 lg:w-96 md:h-80 md:w-80 sm:h-72 sm:w-72 xsm:h-64 xsm:w-64">
-                <a href="#">
-                  <button>
-                  <img className="card-image" src={eventCard} alt="" />
-                  </button>
-                </a>
-              </div>
-            </div>
-            <div className="card-section">
-              <div className="card-content lg:h-96 lg:w-96 md:h-80 md:w-80 sm:h-72 sm:w-72 xsm:h-64 xsm:w-64">
-                <a href="#">
-                  <button>
-                  <img className="card-image" src={eventCard} alt="" />
-                  </button>
-                </a>
-              </div>
-            </div>
-            <div className="card-section">
-              <div className="card-content lg:h-96 lg:w-96 md:h-80 md:w-80 sm:h-72 sm:w-72 xsm:h-64 xsm:w-64">
-                <a href="#">
-                  <button>
-                  <img className="card-image" src={eventCard} alt="" />
-                  </button>
-                </a>
-              </div>
-            </div>
-            <div className="card-section">
-              <div className="card-content lg:h-96 lg:w-96 md:h-80 md:w-80 sm:h-72 sm:w-72 xsm:h-64 xsm:w-64">
-                <a href="#">
-                  <button>
-                  <img className="card-image" src={eventCard} alt="" />
-                  </button>
-                </a>
-              </div>
-            </div>
+            
           
             
-  
   
           </div>
         </div>
