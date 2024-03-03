@@ -1,6 +1,5 @@
 import React from 'react';
 import './CardSection.css';
-import eventCard from '../Cards/eventCard.jpeg';
 import IETAN from '../Cards/IETAN.jpeg';
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 

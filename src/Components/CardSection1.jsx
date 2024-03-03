@@ -1,11 +1,12 @@
 import React from 'react';
 import './CardSection.css';
-import eventCard from '../Cards/eventCard.jpeg';
+import OC from '../Cards/OC.jpeg'
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 import Ideathon from '../Cards/Ideathon.jpeg';
 import Bgmi from '../Cards/Bgmi.jpeg';
 import Efootball from '../Cards/Efootball.jpeg'
 import IBee from '../Cards/IBee.jpeg';
+import Quiz from '../Cards/Quiz.jpeg'
 
 
 function xScrollLeft(){
@@ -59,9 +60,18 @@ function CardSection1() {
           </div>
           <div className="card-section">
             <div className="card-content lg:h-96 lg:w-96 md:h-80 md:w-80 sm:h-72 sm:w-72 xsm:h-64 xsm:w-64">
-              <a href="https://forms.gle/dXPp25VocsPM2XAi6" target='_blank'>
+              <a href="https://www.townscript.com/v2/e/nexera-24-002324/booking/tickets" target='_blank'>
                 <button>
-                <img className="card-image" src={Efootball} alt="" />
+                <img className="card-image" src={OC} alt="" />
+                </button>
+              </a>
+            </div>
+          </div>
+          <div className="card-section">
+            <div className="card-content lg:h-96 lg:w-96 md:h-80 md:w-80 sm:h-72 sm:w-72 xsm:h-64 xsm:w-64">
+              <a href="https://www.townscript.com/v2/e/nexera-24-002324/booking/tickets" target='_blank'>
+                <button>
+                <img className="card-image" src={Quiz} alt="" />
                 </button>
               </a>
             </div>
@@ -71,6 +81,15 @@ function CardSection1() {
               <a href="https://www.townscript.com/v2/e/nexera-24-002324/booking/tickets" target='_blank'>
                 <button>
                 <img className="card-image" src={IBee} alt="" />
+                </button>
+              </a>
+            </div>
+          </div>
+          <div className="card-section">
+            <div className="card-content lg:h-96 lg:w-96 md:h-80 md:w-80 sm:h-72 sm:w-72 xsm:h-64 xsm:w-64">
+              <a href="https://forms.gle/dXPp25VocsPM2XAi6" target='_blank'>
+                <button>
+                <img className="card-image" src={Efootball} alt="" />
                 </button>
               </a>
             </div>

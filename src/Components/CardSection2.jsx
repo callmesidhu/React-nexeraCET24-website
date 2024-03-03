@@ -6,8 +6,10 @@ import PBI from '../Cards/PBI.jpeg'
 import Orgami from '../Cards/Orgami.jpeg'
 import Dance from '../Cards/Dance.jpeg'
 import Stockmarket from '../Cards/Stockmarket.jpeg'
-
+import LWS from '../Cards/Logistics.jpeg'
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
+import GAI from '../Cards/GAI.jpeg'
+import SC from '../Cards/SC.jpeg'
 
 
 function xScrollLeft(){
@@ -94,6 +96,33 @@ function CardSection2() {
               <a  href="https://www.townscript.com/v2/e/nexera-24-002324/booking/tickets" target='_blank'>
                 <button>
                 <img className="card-image" src={Stockmarket} alt="" />
+                </button>
+              </a>
+            </div>
+          </div>
+          <div className="card-section">
+            <div className="card-content lg:h-96 lg:w-96 md:h-80 md:w-80 sm:h-72 sm:w-72 xsm:h-64 xsm:w-64">
+              <a href="https://www.townscript.com/v2/e/nexera-24-002324/booking/tickets" target='_blank'>
+                <button>
+                <img className="card-image" src={LWS} alt="" />
+                </button>
+              </a>
+            </div>
+          </div>
+          <div className="card-section">
+            <div className="card-content lg:h-96 lg:w-96 md:h-80 md:w-80 sm:h-72 sm:w-72 xsm:h-64 xsm:w-64">
+              <a href="https://www.townscript.com/v2/e/nexera-24-002324/booking/tickets" target='_blank'>
+                <button>
+                <img className="card-image" src={GAI} alt="" />
+                </button>
+              </a>
+            </div>
+          </div>
+          <div className="card-section">
+            <div className="card-content lg:h-96 lg:w-96 md:h-80 md:w-80 sm:h-72 sm:w-72 xsm:h-64 xsm:w-64">
+              <a href="https://www.townscript.com/v2/e/nexera-24-002324/booking/tickets" target='_blank'>
+                <button>
+                <img className="card-image" src={SC} alt="" />
                 </button>
               </a>
             </div>
