@@ -17,6 +17,7 @@ function App() {
     <CardSection1/>
     <CardSection2/>
     <CardSection3/>
+    <CardSection4/>
     
     <Footer/>
     

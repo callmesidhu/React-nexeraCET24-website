@@ -28,7 +28,7 @@ function CardSection3() {
             </button>
           </div>
         </div>
-        <div className="card-scroll-container">
+        <div className="card-scroll-container lg:p-3">
           <div className="card-main-row xScroll3 lg:mx-52 md:mx-32 sm:mx-20 xsm:mx-12">
            
            

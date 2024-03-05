@@ -8,6 +8,7 @@ import './SubContent.css';
 
 
 function SubContent() {
+
   return (
 <div className="content-center w-full lg:px-32 px-10" id='overview'>
       <div className='content-list cursor-grabbing  my-24 lg:my-48' >

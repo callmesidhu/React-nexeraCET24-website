@@ -10,6 +10,7 @@ import LWS from '../Cards/Logistics.jpeg'
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 import GAI from '../Cards/GAI.jpeg'
 import SC from '../Cards/SC.jpeg'
+import AIDrone from '../Cards/AIDrone.jpeg'
 
 
 function xScrollLeft(){
@@ -38,14 +39,22 @@ function CardSection2() {
           </button>
         </div>
       </div>
-      <div className="card-scroll-container">
+      <div className="card-scroll-container lg:p-3">
         <div className="card-main-row xScroll2 lg:mx-52 md:mx-32 sm:mx-20 xsm:mx-12">
          
          
          
          
           
-        
+        <div className="card-section">
+            <div className="card-content lg:h-96 lg:w-96 md:h-80 md:w-80 sm:h-72 sm:w-72 xsm:h-64 xsm:w-64">
+              <a href="https://www.townscript.com/v2/e/nexera-24-002324/booking/tickets" target='_blank'>
+                <button>
+                <img className="card-image" src={AIDrone} alt="" />
+                </button>
+              </a>
+            </div>
+          </div>
           <div className="card-section">
             <div className="card-content lg:h-96 lg:w-96 md:h-80 md:w-80 sm:h-72 sm:w-72 xsm:h-64 xsm:w-64">
               <a href="https://www.townscript.com/v2/e/nexera-24-002324/booking/tickets" target='_blank'>

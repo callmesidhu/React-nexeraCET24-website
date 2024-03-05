@@ -7,6 +7,7 @@ import Bgmi from '../Cards/Bgmi.jpeg';
 import Efootball from '../Cards/Efootball.jpeg'
 import IBee from '../Cards/IBee.jpeg';
 import Quiz from '../Cards/Quiz.jpeg'
+import DroneExpo from '../Cards/DroneExpo.jpeg'
 
 
 function xScrollLeft(){
@@ -34,7 +35,7 @@ function CardSection1() {
           </button>
         </div>
       </div>
-      <div className="card-scroll-container">
+      <div className="card-scroll-container lg:p-3">
         <div className="card-main-row xScroll1 lg:mx-52 md:mx-32 sm:mx-20 xsm:mx-12">
          
          
@@ -87,9 +88,18 @@ function CardSection1() {
           </div>
           <div className="card-section">
             <div className="card-content lg:h-96 lg:w-96 md:h-80 md:w-80 sm:h-72 sm:w-72 xsm:h-64 xsm:w-64">
-              <a href="https://forms.gle/dXPp25VocsPM2XAi6" target='_blank'>
+              <a href="https://www.townscript.com/v2/e/nexera-24-002324/booking/tickets" target='_blank'>
                 <button>
                 <img className="card-image" src={Efootball} alt="" />
+                </button>
+              </a>
+            </div>
+          </div>
+          <div className="card-section">
+            <div className="card-content lg:h-96 lg:w-96 md:h-80 md:w-80 sm:h-72 sm:w-72 xsm:h-64 xsm:w-64">
+              <a href="https://www.townscript.com/v2/e/nexera-24-002324/booking/tickets" target='_blank'>
+                <button>
+                <img className="card-image" src={DroneExpo} alt="" />
                 </button>
               </a>
             </div>
