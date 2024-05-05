@@ -65,7 +65,7 @@ function Header() {
 </button>
 </Link>
 <button class="bg-blue-100 hover:bg-blue-200 text-gray-900 font-bold py-2 px-4 m-2 rounded-full" onClick={Order} >
-  T-Shirt
+  IEA-CET
 </button>
 <Link 
       to="contact" 

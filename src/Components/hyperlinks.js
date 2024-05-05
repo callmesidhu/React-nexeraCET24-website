@@ -5,6 +5,6 @@ export function callLinkedIn(){
         window.open("https://www.linkedin.com/", "_blank");
 }
 export function Order(){
-        window.open("https://docs.google.com/forms/d/e/1FAIpQLSfJo8InL3woE09IOQzWWPiTFhi30CByRVDz72f-JqWS7ATzWQ/viewform", "_blank");
+        window.open("https://www.ieacet.in");
 }
 
