@@ -1,5 +1,15 @@
 body{
-        padding-bottom: 10%;
+          margin: 0%;
+          background-repeat: no-repeat;
+          background-attachment: scroll;
+          background-image: url(Images/fullBG.png);
+          background-color: black;
+          background-position-x: center;
+          color: white;
+          cursor: url('/public/mpc.png'), auto;
+  
+          
+        
 }
 ::-webkit-scrollbar {
         width: 8px;
